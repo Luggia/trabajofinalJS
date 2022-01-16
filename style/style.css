@@ -1,0 +1,605 @@
+
+header {
+    background:rgba(0, 118, 192, 0.781) ;
+}
+
+main {
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+
+section {
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+
+.titulo {
+    text-align: center;
+    margin-block-start: 3%;
+    margin-block-end: 1%;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    color: rgb(79, 164, 243);
+}
+
+.titulo span {
+    color: black;
+    margin-block-start: 3%;
+    margin-block-end: 1%;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    margin: 2% 10%;
+}
+
+.linea{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:500px;
+    margin-bottom:5px;
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h3{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 20%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+.overlay p{
+    color: #fff;
+    font-weight: 300;
+    font-size:15px;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.linea2 {
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+}
+
+#covid-19 {
+    text-align: center;
+    font-size: 19px;
+}
+
+#covid-19 h3 {
+    color: #0077C0;
+}
+
+.tituloFormulario h3{
+    text-align: center;
+    color: #0077C0;
+}
+
+form {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 118, 192, 0.781);
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#enviar {
+    padding: 0.5px;
+}
+#rstablecer {
+    padding: 1;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: rgb(0, 118, 192, 0.781);
+  }
+  .contGeneral{
+    display: flex;
+  }
+  .contGeneral .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .separador {
+    border-top: 3px solid black;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  .derebox {
+      text-align: start;
+  }
+
+  .social img {
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .der iframe {
+      width: 100%;
+  }
+
+.titulosSpa {
+    align-items: center;
+}
+.titulosSpa img{
+    width: 100%;
+}
+
+.lineaspa{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.lineaHotel{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.lineaHotel2{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.textoexplicacion h2{
+    text-align: center;
+}
+
+.spaIzquierda img {
+    width: 100%;
+
+}
+
+.spaDerecha p {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Birthstone', cursive;
+}
+
+aside {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.tituloTratamiento h3{
+    text-align: center;
+    margin: 3%;
+    font-size: 45px;
+}
+
+.listadoTratamiento {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.listadoIzq {
+    text-align: left;
+    max-width: 25%;
+}
+.listadoCent {
+    text-align: left;
+    max-width: 25%;
+}
+
+.listadoDer {
+    text-align: left;
+    max-width: 25%;   
+}
+
+.listadoDer ul li p {
+    margin-top: 1%;
+}
+
+.listadoIzq ul li p {
+    margin-top: 7%;
+}
+
+.listadoCent ul li p {
+    margin-top: 8%;
+}
+
+.h2titulo h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 118, 192);
+}
+
+.titulosHotel img{
+
+    width: 100%;
+    align-items: center;
+}
+
+
+.textobienvenida p{
+    text-align: center;
+    padding: 2px;
+    font-size: 40px;
+    font-family: 'Birthstone', cursive;
+}
+.descripHabitaciones p{
+    justify-content: right;
+}
+.carousel-inner p {
+    color: rgb(0, 118, 192);
+    font-size: 30px;
+}
+
+.carousel-inner h5 {
+    color: rgb(0, 118, 192);
+    font-size: 30px;
+}
+
+.tituloServicios {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.descripcionHotel {
+    font-size: 27px;
+    background-color: rgb(0, 118, 192);
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+}
+
+.lineaRestaurant {
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.asideRestaurant {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.sectionRestaurant {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Birthstone', cursive;
+}
+
+.sectionRestaurant h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+.sectionRestaurant p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.restaurantExplicacion {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.restaurantExplicacion h2 {
+    text-align: center;
+}
+
+.contactoListado h3 {
+text-align: left;
+}
+
+.contactoListado {
+margin-top: 70px;
+}
+
+.titulosContacto img{
+    width: 100%;
+    align-items: center;
+}
+.sectionContacto {
+    margin-right: 16%;
+    margin-left: 19%;
+    margin-bottom: 70px;
+}
+
+.gracias {
+    text-align: center;
+    margin-bottom: 21%;
+}
+
+.gracias p{
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.gracias a {
+    font-size: 50px;
+}
+
+.mainPacketes {
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulosPacketes {
+    align-items: center;
+}
+.titulosPacketes img{
+    width: 80%;
+}
+
+
+.titulosPacketes {
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+.line__packetes {
+    border-top: 5px solid #0077C0;
+    margin-bottom: 20px;
+}
+
+/* slider */
+.wrapper{
+	width: 100%;
+	margin-top: 100px;
+	background: #fff;
+	padding: 30px 0;
+}
+
+.slider-testimonial{
+	width: 85%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.testimonial-client{
+	margin-bottom: 15px;
+}
+
+.testimonial-client img{
+	width: 120px;
+	margin:auto;
+}
+
+.client-name{
+	font-family: "Open sans";
+	font-weight: 600;
+	text-align: center;
+}
+
+.testimonial-text{
+	padding: 10px 120px;
+}
+
+.testimonial-text p{
+	font-family: "Open sans";
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	color: #454545;
+}
+/* carrito  */
+
+
+
+.main__packetes {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.carrito {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+
+.title__aside {
+    text-align: center;
+    
+}
+
+.container__products{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart{
+    width: 39px;
+    height: 38px;
+    cursor:pointer;
+}
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  /* ver con los chicos */
+
+    min-width: 290px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+.products{
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+.carts img{
+    width: 100%;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+.carts div p{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: rgb(0, 118, 192, 0.781);
+    color: #fff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    position: relative;
+}
+.carts a{
+    font-family: system-ui;
+    text-decoration: none;
+    background: rgb(5, 109, 141);
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(57, 173, 76);
+    transition-duration: .3s;
+}
+.cart-products .item img{
+    width: 115px;
+}
+
+.cart-products .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px red;
+}
+.cart-products .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.cart-products .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item span{
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.cart-products h3{
+    margin-bottom: 0;
+}
+.cart-products .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+.cover__servicios img{
+    align-items: center;
+    width: 100%;
+}
+
+.cover__opiniones img{
+    align-items: center;
+    width: 100%;
+}
+
+.text__cover{
+    text-align: center;
+}
